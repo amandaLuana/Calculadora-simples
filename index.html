@@ -1,0 +1,55 @@
+<!--Calculadora feito no curso JS do curso em vídeo-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/calculator-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora simples</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Soma</h2>
+        <input type="number" name="txtn1" id="txtn1"> +
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" onclick="somar()">
+        <div id="res">Resultado:</div>
+
+        <h2>Subtração</h2>
+        <input type="number" name="txtn3" id="txtn3"> -
+        <input type="number" name="txtn4" id="txtn4">
+        <input type="button" value="Subtrair" onclick="subtrair()">
+        <div id="result">Resultado:</div>
+
+        <h2>Multiplicação</h2>
+        <input type="number" name="txtn5" id="txtn5">
+        <input type="number" name="txtn6" id="txtn6">
+        <input type="button" value="Multiplicar" onclick="multiplicar()">
+        <div id="rs">Resultado:</div>
+
+        <h2>Divisão</h2>
+        <input type="number" name="txtn7" id="txtn7">
+        <input type="number" name="txtn8" id="txtn8">
+        <input type="button" value="Dividir" onclick="dividir()">
+        <div id="re">Resultado:</div>
+
+        <h2>Resto da divisão</h2>
+        <input type="number" name="txtn9" id="txtn9">
+        <input type="number" name="txtn10" id="txtn10">
+        <input type="button" value="Resto Divisão" onclick="restoDivisao()">
+        <div id="restoDivisao">Resultado:</div>
+        
+        <h2>Potência</h2>
+        <input type="number" name="txtn11" id="txtn11">
+        <input type="number" name="txtn112" id="txtn12">
+        <input type="button" value="Potência" onclick="potencia()">
+        <div id="potencia">Resultado:</div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
